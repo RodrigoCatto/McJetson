@@ -10,4 +10,8 @@
 <node pkg="teleop_tools" type="joy_teleop.py" output="log" name="low_level_control">
 </node>
 
+<node pkg="tk_llc" type="encoder_odom.py" output="screen" name="encoder_odom">
+</node>
+  
+
 </launch>
