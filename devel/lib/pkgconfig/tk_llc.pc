@@ -1,0 +1,8 @@
+prefix=/home/rodrigo/catkin_ws/devel
+
+Name: tk_llc
+Description: Description of tk_llc
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rodrigo/catkin_ws/devel/lib 
+Requires: 

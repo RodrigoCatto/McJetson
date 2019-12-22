@@ -1,0 +1,8 @@
+prefix=/home/rodrigo/catkin_ws/install
+
+Name: hector_nav_msgs
+Description: Description of hector_nav_msgs
+Version: 0.3.5
+Cflags: -I/home/rodrigo/catkin_ws/install/include
+Libs: -L/home/rodrigo/catkin_ws/install/lib 
+Requires: nav_msgs geometry_msgs message_runtime

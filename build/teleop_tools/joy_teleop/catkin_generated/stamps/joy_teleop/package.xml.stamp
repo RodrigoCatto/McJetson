@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>joy_teleop</name>
+  <version>0.3.0</version>
+  <description>A (to be) generic joystick interface to control a robot</description>
+
+  <maintainer email="bence.magyar.robotics@gmail.com">Bence Magyar</maintainer>
+  <author email="paul.mathieu@pal-robotics.com">Paul Mathieu</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>actionlib</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>rostopic</run_depend>
+  <run_depend>teleop_tools_msgs</run_depend>
+
+</package>

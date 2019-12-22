@@ -1,0 +1,8 @@
+prefix=/home/rodrigo/catkin_ws/install
+
+Name: hector_map_tools
+Description: Description of hector_map_tools
+Version: 0.3.5
+Cflags: -I/home/rodrigo/catkin_ws/install/include -I/usr/include/eigen3
+Libs: -L/home/rodrigo/catkin_ws/install/lib 
+Requires: nav_msgs

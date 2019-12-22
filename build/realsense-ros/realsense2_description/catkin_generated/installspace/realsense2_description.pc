@@ -1,0 +1,8 @@
+prefix=/home/rodrigo/catkin_ws/install
+
+Name: realsense2_description
+Description: Description of realsense2_description
+Version: 2.2.6
+Cflags: 
+Libs: -L/home/rodrigo/catkin_ws/install/lib 
+Requires: 

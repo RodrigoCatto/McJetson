@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rodrigo/catkin_ws/src/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h
+string
+-
+map
+-
+
+/home/rodrigo/catkin_ws/src/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h
+gmapping/sensor/sensor_base/sensor.h
+/home/rodrigo/catkin_ws/src/openslam_gmapping/include/gmapping/sensor/sensor_base/gmapping/sensor/sensor_base/sensor.h
+
+/home/rodrigo/catkin_ws/src/openslam_gmapping/sensor/sensor_base/sensor.cpp
+gmapping/sensor/sensor_base/sensor.h
+/home/rodrigo/catkin_ws/src/openslam_gmapping/sensor/sensor_base/gmapping/sensor/sensor_base/sensor.h
+
+/home/rodrigo/catkin_ws/src/openslam_gmapping/sensor/sensor_base/sensorreading.cpp
+gmapping/sensor/sensor_base/sensorreading.h
+/home/rodrigo/catkin_ws/src/openslam_gmapping/sensor/sensor_base/gmapping/sensor/sensor_base/sensorreading.h
+

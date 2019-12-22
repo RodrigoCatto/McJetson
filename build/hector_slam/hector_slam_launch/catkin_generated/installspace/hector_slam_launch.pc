@@ -1,0 +1,8 @@
+prefix=/home/rodrigo/catkin_ws/install
+
+Name: hector_slam_launch
+Description: Description of hector_slam_launch
+Version: 0.3.5
+Cflags: 
+Libs: -L/home/rodrigo/catkin_ws/install/lib 
+Requires: 

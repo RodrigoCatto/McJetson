@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libsensor_base.so -o /home/rodrigo/catkin_ws/devel/lib/libsensor_base.so CMakeFiles/sensor_base.dir/sensor/sensor_base/sensor.cpp.o CMakeFiles/sensor_base.dir/sensor/sensor_base/sensorreading.cpp.o 

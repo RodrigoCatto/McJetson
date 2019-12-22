@@ -1,0 +1,8 @@
+prefix=/home/rodrigo/catkin_ws/devel
+
+Name: hector_marker_drawing
+Description: Description of hector_marker_drawing
+Version: 0.3.5
+Cflags: -I/home/rodrigo/catkin_ws/src/hector_slam/hector_marker_drawing/include -I/usr/include/eigen3
+Libs: -L/home/rodrigo/catkin_ws/devel/lib 
+Requires: roscpp visualization_msgs

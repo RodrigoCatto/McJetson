@@ -1,0 +1,8 @@
+prefix=/home/rodrigo/catkin_ws/devel
+
+Name: razor_imu_9dof
+Description: Description of razor_imu_9dof
+Version: 1.2.0
+Cflags: -I/home/rodrigo/catkin_ws/devel/include
+Libs: -L/home/rodrigo/catkin_ws/devel/lib 
+Requires: dynamic_reconfigure

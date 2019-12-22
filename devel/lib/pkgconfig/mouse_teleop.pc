@@ -1,0 +1,8 @@
+prefix=/home/rodrigo/catkin_ws/devel
+
+Name: mouse_teleop
+Description: Description of mouse_teleop
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/rodrigo/catkin_ws/devel/lib 
+Requires: 

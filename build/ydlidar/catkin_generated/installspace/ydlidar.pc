@@ -1,0 +1,8 @@
+prefix=/home/rodrigo/catkin_ws/install
+
+Name: ydlidar
+Description: Description of ydlidar
+Version: 1.3.1
+Cflags: 
+Libs: -L/home/rodrigo/catkin_ws/install/lib 
+Requires: 
