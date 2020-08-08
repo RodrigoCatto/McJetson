@@ -5,3 +5,7 @@ Building an Autonomous RC Car using the Robotic Operating System (ROS)
 localization and planning routes based on waypoints while avoiding obstacles.
 
 ![](Images/McJetson_Render.png)
+
+
+**Youtube Tutorials:**
+* [Building an Autonomous RC Car | Part 1](https://www.youtube.com/watch?v=tFP9U9C-gqY)
