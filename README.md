@@ -13,3 +13,12 @@ localization and planning routes based on waypoints while avoiding obstacles.
 
 **Part 2 | Manual Control**
 * Video will come soon!
+
+**Part 3 | Odometry & Mapping**
+* Video will come soon!
+
+**Part 4 | Localization**
+* Video will come soon!
+
+**Part 5 | Navigation**
+* Video will come soon!
