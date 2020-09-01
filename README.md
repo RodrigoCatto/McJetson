@@ -8,8 +8,8 @@ localization and planning routes based on waypoints while avoiding obstacles.
 
 
 # Youtube Tutorials:
-**Part 1 | Overview **
+**Part 1 | Overview**
 * [Building an Autonomous RC Car | Part 1](https://www.youtube.com/watch?v=tFP9U9C-gqY)
 
-**Part 2 | Manual Control **
+**Part 2 | Manual Control**
 * Video will come soon!
