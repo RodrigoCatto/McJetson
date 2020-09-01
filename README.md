@@ -7,6 +7,9 @@ localization and planning routes based on waypoints while avoiding obstacles.
 ![](Images/McJetson_Render.png)
 
 
-**Youtube Tutorials:**
+# Youtube Tutorials:
+**Part 1 | Overview **
 * [Building an Autonomous RC Car | Part 1](https://www.youtube.com/watch?v=tFP9U9C-gqY)
-* Next videos will come soon!
+
+**Part 2 | Manual Control **
+* Video will come soon!
