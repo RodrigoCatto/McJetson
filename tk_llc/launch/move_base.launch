@@ -1,0 +1,27 @@
+<launch>
+
+  <!--- Run AMCL -->
+  <include file="$(find tk_llc)/launch/amcl_launch.launch" />
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+
+    <param name="base_global_planner" value="navfn/NavfnROS"/>
+    <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS"/>
+    <rosparam file="$(find tk_llc)/params/base_global_planner.yaml" command="load"/>
+    <rosparam file="$(find tk_llc)/params/teb_local_planner.yaml" command="load"/>
+
+    <!-- observation sources located in costmap_common.yaml -->
+    <rosparam file="$(find tk_llc)/params/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find tk_llc)/params/costmap_common_params.yaml" command="load" ns="local_costmap" />
+
+    <!-- local costmap, needs size -->
+    <rosparam file="$(find tk_llc)/params/local_costmap_params.yaml" command="load" ns="local_costmap" />
+    <param name="local_costmap/width" value="3"/>
+    <param name="local_costmap/height" value="3"/>
+
+    <!-- static global costmap, static map provides size -->
+    <rosparam file="$(find tk_llc)/params/global_costmap_params.yaml" command="load" ns="global_costmap"/>
+    
+  </node>
+
+</launch>
