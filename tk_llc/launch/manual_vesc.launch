@@ -1,0 +1,26 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+
+  <arg name="node_name" default="vesc_driver_node" />
+
+  <!-- Optionally launch in GDB, for debugging -->
+  <arg name="debug" default="false" />
+  <arg if="$(arg debug)" name="launch_prefix" value="xterm -e gdb --args" />
+  <arg unless="$(arg debug)" name="launch_prefix" value="" />
+
+  <!-- VESC driver parameters -->
+  <arg name="port" default="/dev/vesc" />
+
+  <!-- VESC driver node -->
+  <node pkg="vesc_driver" type="vesc_driver_node" name="$(arg node_name)"
+        output="screen" launch-prefix="$(arg launch_prefix)" >
+    <param name="port" value="$(arg port)" />
+  </node>
+
+  <node pkg="tk_llc" type="low_level_control.py" output="log" name="low_level_control">
+  </node>
+  
+  <include file="$(find teleop_twist_joy)/launch/teleop.launch" />
+
+
+</launch>
