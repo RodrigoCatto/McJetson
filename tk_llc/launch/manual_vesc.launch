@@ -17,7 +17,7 @@
     <param name="port" value="$(arg port)" />
   </node>
 
-  <node pkg="tk_llc" type="low_level_control.py" output="log" name="low_level_control">
+  <node pkg="mcjetson" type="low_level_control.py" output="log" name="low_level_control">
   </node>
   
   <include file="$(find teleop_twist_joy)/launch/teleop.launch" />
