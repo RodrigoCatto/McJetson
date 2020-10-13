@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libutils.so -o /home/rodrigo/catkin_ws/devel/lib/libutils.so CMakeFiles/utils.dir/utils/stat.cpp.o CMakeFiles/utils.dir/utils/movement.cpp.o 

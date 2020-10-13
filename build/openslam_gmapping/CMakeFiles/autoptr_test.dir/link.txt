@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/autoptr_test.dir/utils/autoptr_test.cpp.o  -o /home/rodrigo/catkin_ws/devel/lib/openslam_gmapping/autoptr_test 

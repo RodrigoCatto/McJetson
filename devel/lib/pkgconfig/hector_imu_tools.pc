@@ -1,8 +1,0 @@
-prefix=/home/rodrigo/catkin_ws/devel
-
-Name: hector_imu_tools
-Description: Description of hector_imu_tools
-Version: 0.3.5
-Cflags: 
-Libs: -L/home/rodrigo/catkin_ws/devel/lib 
-Requires: 

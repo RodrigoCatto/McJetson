@@ -1,8 +1,0 @@
-prefix=/home/rodrigo/catkin_ws/devel
-
-Name: gmapping
-Description: Description of gmapping
-Version: 1.4.0
-Cflags: 
-Libs: -L/home/rodrigo/catkin_ws/devel/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/rodrigo/catkin_ws/install
-
-Name: openslam_gmapping
-Description: Description of openslam_gmapping
-Version: 0.2.1
-Cflags: -I/home/rodrigo/catkin_ws/install/include
-Libs: -L/home/rodrigo/catkin_ws/install/lib -lutils -lsensor_base -lsensor_odometry -lsensor_range -llog -lconfigfile -lscanmatcher -lgridfastslam
-Requires: 

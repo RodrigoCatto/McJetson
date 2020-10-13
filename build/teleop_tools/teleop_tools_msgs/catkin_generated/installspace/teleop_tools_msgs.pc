@@ -1,8 +1,0 @@
-prefix=/home/rodrigo/catkin_ws/install
-
-Name: teleop_tools_msgs
-Description: Description of teleop_tools_msgs
-Version: 0.3.0
-Cflags: -I/home/rodrigo/catkin_ws/install/include
-Libs: -L/home/rodrigo/catkin_ws/install/lib 
-Requires: message_runtime actionlib_msgs

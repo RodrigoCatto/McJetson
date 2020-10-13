@@ -1,8 +1,0 @@
-prefix=/home/rodrigo/catkin_ws/devel
-
-Name: key_teleop
-Description: Description of key_teleop
-Version: 0.3.0
-Cflags: 
-Libs: -L/home/rodrigo/catkin_ws/devel/lib 
-Requires: 
