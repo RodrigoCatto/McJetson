@@ -12,7 +12,7 @@ localization and planning routes based on waypoints while avoiding obstacles.
 * [Building an Autonomous RC Car | Part 1](https://www.youtube.com/watch?v=tFP9U9C-gqY)
 
 **Part 2 | Manual Control**
-* Video will come soon!
+* [Building an Autonomous RC Car | Part 2](https://www.youtube.com/watch?v=Bf7kSNWbcrU)
 
 **Part 3 | Odometry & Mapping**
 * Video will come soon!
@@ -25,3 +25,4 @@ localization and planning routes based on waypoints while avoiding obstacles.
 
 # Hardware Overview:
 ![](Images/SystemOverview.png)
+
