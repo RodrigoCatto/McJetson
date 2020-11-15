@@ -1,12 +1,12 @@
 # McJetson
-Building an Autonomous RC Car using the Robotic Operating System (ROS)
+Building an Autonomous RC Car using the Robotic Operating System (ROS).
 
 **Project Goal:** Transform an off-road RC car into an autonomous system with on-board processing using ROS for mapping,
 localization and planning routes based on waypoints while avoiding obstacles.
 
 ![](Images/McJetson_Render.png)
 
-
+# For details pls check the [Wiki](https://github.com/RodrigoCatto/McJetson/wiki)!    
 # Youtube Tutorials:
 **Part 1 | Overview**
 * [Building an Autonomous RC Car | Part 1](https://www.youtube.com/watch?v=tFP9U9C-gqY)
